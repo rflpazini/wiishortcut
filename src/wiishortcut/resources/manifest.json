@@ -1,0 +1,32 @@
+{
+  "forwarder-usb-v1": {
+    "sha256": "ff31340547ddf9eaad6ccc10491333fe59770d0fe978fc233e504c0399d7d671",
+    "filename": "USBLoaderGXForwarder.dol",
+    "source": "WiiGSC 1.1 ModMii Edition release zip, Loaders/USBLoaderGXForwarder.dol (commit beb2078, not in the git tree)",
+    "license": "Unspecified. Original forwarder by Narolez, modified by blackb0x for WiiGSC 1.1. Not redistributed by WiiShortcut.",
+    "included": false,
+    "platform": "wii",
+    "loader": "usbloadergx",
+    "source_device": "usb",
+    "bootable": true,
+    "sd_argument": false,
+    "disc_id_magic": "CRAPPY",
+    "config_magic": "CFGUGX",
+    "disc_id_delta": 144
+  },
+  "forwarder-sd-v1": {
+    "sha256": "7702a375d7bd35354e51997c14f861f42e369e706fc8c1704b9b2d7cb1302cfb",
+    "filename": "USBLoaderGXForwarderSD.dol",
+    "source": "WiiGSC 1.1 ModMii Edition release zip, Loaders/USBLoaderGXForwarderSD.dol (commit beb2078, not in the git tree)",
+    "license": "Unspecified. Original forwarder by Narolez, modified by blackb0x for WiiGSC 1.1. Not redistributed by WiiShortcut.",
+    "included": false,
+    "platform": "wii",
+    "loader": "usbloadergx",
+    "source_device": "sd",
+    "bootable": true,
+    "sd_argument": true,
+    "disc_id_magic": "CRAPPY",
+    "config_magic": "CFGUGX",
+    "disc_id_delta": 144
+  }
+}
